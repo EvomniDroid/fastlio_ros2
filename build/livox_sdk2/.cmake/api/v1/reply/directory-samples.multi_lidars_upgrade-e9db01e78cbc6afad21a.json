@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "samples/multi_lidars_upgrade",
+		"source" : "samples/multi_lidars_upgrade"
+	}
+}

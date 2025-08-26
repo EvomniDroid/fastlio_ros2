@@ -1,0 +1,7 @@
+{
+  "package_name": "livox_ros_driver2",
+  "non_idl_tuples": [
+    "/home/zh/slam/fastlio_ros2humble/src/livox_ros_driver2:msg/CustomPoint.msg",
+    "/home/zh/slam/fastlio_ros2humble/src/livox_ros_driver2:msg/CustomMsg.msg"
+  ]
+}

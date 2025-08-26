@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "samples/livox_lidar_rmc_time_sync",
+		"source" : "samples/livox_lidar_rmc_time_sync"
+	}
+}

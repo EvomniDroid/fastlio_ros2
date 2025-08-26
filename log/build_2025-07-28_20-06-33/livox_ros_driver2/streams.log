@@ -1,0 +1,110 @@
+[0.007s] Invoking command in '/home/zh/slam/fastlio_ros2humble/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_driver_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/helloworld_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_twist_bridge_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_teleop_ctrl_keyboard:/opt/ros/humble /usr/bin/cmake /home/zh/slam/fastlio_ros2humble/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/zh/slam/fastlio_ros2humble/install/livox_ros_driver2
+[0.015s] -- livox_ros_driver2 version: 1.2.4
+[0.015s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.130s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.131s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.144s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.169s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.169s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.176s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.231s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.248s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.388s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.390s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.463s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.466s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.469s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.538s] -- Found Qhull version 8.0.2
+[0.610s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.706s] -- Checking for module 'apr-1'
+[0.708s] --   No package 'apr-1' found
+[0.822s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.941s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.101s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.117s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.135s] -- Using PYTHON_EXECUTABLE: /home/zh/anaconda3/bin/python3
+[1.135s] -- Using PYTHON_INCLUDE_DIRS: /home/zh/anaconda3/include/python3.10
+[1.135s] -- Using PYTHON_LIBRARIES: /home/zh/anaconda3/lib/libpython3.10.so
+[1.235s] -- Using numpy include directory: /home/zh/.local/lib/python3.10/site-packages/numpy/core/include
+[1.246s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.250s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.252s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.252s] -- Configured cppcheck include dirs: /home/zh/slam/fastlio_ros2humble/src/livox_ros_driver2/3rdparty;/home/zh/slam/fastlio_ros2humble/src/livox_ros_driver2/src
+[1.252s] -- Configured cppcheck exclude dirs and/or files: 
+[1.254s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.254s] -- Configured cpplint exclude dirs and/or files: 
+[1.254s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.254s] -- Added test 'lint_cmake' to check CMake code style
+[1.255s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.256s] -- Added test 'uncrustify' to check C / C++ code style
+[1.256s] -- Configured uncrustify additional arguments: 
+[1.257s] -- Added test 'xmllint' to check XML markup files
+[1.257s] -- Configuring done
+[1.259s] [0mCMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+[1.259s] Please set them or make sure they are set and tested correctly in the CMake files:
+[1.259s] /home/zh/slam/fastlio_ros2humble/src/livox_ros_driver2/LIVOX_INTERFACES_INCLUDE_DIRECTORIES
+[1.259s]    used as include directory in directory /home/zh/slam/fastlio_ros2humble/src/livox_ros_driver2
+[1.259s] [0m
+[1.270s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):
+[1.270s]   Cannot generate a safe runtime search path for target
+[1.271s]   livox_interfaces2__rosidl_generator_py because files in some directories
+[1.271s]   may conflict with libraries in implicit directories:
+[1.271s] 
+[1.271s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.271s]       /home/zh/anaconda3/lib
+[1.271s] 
+[1.271s]   Some of these libraries may not be found correctly.
+[1.271s] Call Stack (most recent call first):
+[1.271s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.271s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.271s]   CMakeLists.txt:241 (rosidl_generate_interfaces)
+[1.271s] 
+[1.271s] [0m
+[1.271s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.271s]   Cannot generate a safe runtime search path for target
+[1.271s]   livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext because files in
+[1.271s]   some directories may conflict with libraries in implicit directories:
+[1.271s] 
+[1.271s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.271s]       /home/zh/anaconda3/lib
+[1.271s] 
+[1.271s]   Some of these libraries may not be found correctly.
+[1.271s] Call Stack (most recent call first):
+[1.271s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.271s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.271s]   CMakeLists.txt:241 (rosidl_generate_interfaces)
+[1.271s] 
+[1.271s] [0m
+[1.272s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.272s]   Cannot generate a safe runtime search path for target
+[1.272s]   livox_ros_driver2__rosidl_typesupport_introspection_c__pyext because files
+[1.272s]   in some directories may conflict with libraries in implicit directories:
+[1.272s] 
+[1.272s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.272s]       /home/zh/anaconda3/lib
+[1.272s] 
+[1.272s]   Some of these libraries may not be found correctly.
+[1.272s] Call Stack (most recent call first):
+[1.272s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.272s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.272s]   CMakeLists.txt:241 (rosidl_generate_interfaces)
+[1.272s] 
+[1.272s] [0m
+[1.273s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.273s]   Cannot generate a safe runtime search path for target
+[1.273s]   livox_ros_driver2__rosidl_typesupport_c__pyext because files in some
+[1.273s]   directories may conflict with libraries in implicit directories:
+[1.273s] 
+[1.273s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.273s]       /home/zh/anaconda3/lib
+[1.273s] 
+[1.273s]   Some of these libraries may not be found correctly.
+[1.273s] Call Stack (most recent call first):
+[1.273s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.273s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.273s]   CMakeLists.txt:241 (rosidl_generate_interfaces)
+[1.273s] 
+[1.273s] [0m
+[1.284s] -- Generating done
+[1.286s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.298s] Invoked command in '/home/zh/slam/fastlio_ros2humble/build/livox_ros_driver2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_driver_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/helloworld_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_twist_bridge_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_teleop_ctrl_keyboard:/opt/ros/humble /usr/bin/cmake /home/zh/slam/fastlio_ros2humble/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/zh/slam/fastlio_ros2humble/install/livox_ros_driver2

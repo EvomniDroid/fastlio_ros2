@@ -1,0 +1,180 @@
+In file included from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2[m[K:
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+  542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+      |                             [01;35m[K^~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+      |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+  545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+   36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+      | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+  542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+      |                             [01;36m[K^~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+      |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+  545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+   36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+      | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37[m[K:
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+  542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+      |                             [01;35m[K^~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+      |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+  545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+   36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+      | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+  542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+      |                             [01;36m[K^~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+      |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+  545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+   36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+      | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37[m[K:
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+  542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+      |                             [01;35m[K^~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+      |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+  545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+   36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+      | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+  542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+      |                             [01;36m[K^~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+      |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+  545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+   36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+      | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2[m[K:
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+  542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+      |                             [01;35m[K^~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+      |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+  545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+   36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+      | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+  542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+      |                             [01;36m[K^~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+      |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+  545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+   36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+      | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37[m[K:
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+  542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+      |                             [01;35m[K^~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+      |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+  545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+   36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+      | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+  542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+      |                             [01;36m[K^~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+      |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+  545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+   36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+      | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+                 from [01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37[m[K:
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+  542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+      |                             [01;35m[K^~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+      |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+  545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+   36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+      | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+  542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+      |                             [01;36m[K^~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+      |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+  545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+   36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+      | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K

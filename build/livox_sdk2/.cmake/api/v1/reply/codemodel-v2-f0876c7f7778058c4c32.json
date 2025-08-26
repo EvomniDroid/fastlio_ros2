@@ -1,0 +1,253 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "sdk_core",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-sdk_core-fa9c07ec019575d226be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sdk_core",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "samples",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"jsonFile" : "directory-samples-88afea7703804c5d5448.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "samples"
+				},
+				{
+					"build" : "samples/livox_lidar_quick_start",
+					"jsonFile" : "directory-samples.livox_lidar_quick_start-7fe5f5728ba36da7b222.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "samples/livox_lidar_quick_start",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "samples/multi_lidars_upgrade",
+					"jsonFile" : "directory-samples.multi_lidars_upgrade-e9db01e78cbc6afad21a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "samples/multi_lidars_upgrade",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "samples/logger",
+					"jsonFile" : "directory-samples.logger-8f5747e5239ef4e7396c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "samples/logger",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "samples/debug_point_cloud",
+					"jsonFile" : "directory-samples.debug_point_cloud-705991401d01f4e515af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "samples/debug_point_cloud",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "samples/lidar_cmd_observer",
+					"jsonFile" : "directory-samples.lidar_cmd_observer-731b7366ee92683e0059.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "samples/lidar_cmd_observer",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "samples/livox_lidar_rmc_time_sync",
+					"jsonFile" : "directory-samples.livox_lidar_rmc_time_sync-34b833bf307b03cc70be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "samples/livox_lidar_rmc_time_sync",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "livox_sdk2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "debug_point_cloud::@f32b94dd7d315eece92d",
+					"jsonFile" : "target-debug_point_cloud-f2ce2915756f5babc70d.json",
+					"name" : "debug_point_cloud",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "lidar_cmd_observer::@ddee933d94e6b2070ce6",
+					"jsonFile" : "target-lidar_cmd_observer-2a35af9fd13dd446ffa7.json",
+					"name" : "lidar_cmd_observer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "livox_lidar_quick_start::@ab3e53e7f062fc3c34a3",
+					"jsonFile" : "target-livox_lidar_quick_start-a1b49987e28c751520a1.json",
+					"name" : "livox_lidar_quick_start",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "livox_lidar_rmc_time_sync::@557ce34d770300e055ec",
+					"jsonFile" : "target-livox_lidar_rmc_time_sync-8a38e235067db04f5743.json",
+					"name" : "livox_lidar_rmc_time_sync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "livox_lidar_sdk_shared::@bae76f41bc05054a2095",
+					"jsonFile" : "target-livox_lidar_sdk_shared-2a09f5974e530f3f031c.json",
+					"name" : "livox_lidar_sdk_shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "livox_lidar_sdk_static::@bae76f41bc05054a2095",
+					"jsonFile" : "target-livox_lidar_sdk_static-daf9e4e832ae5a504d12.json",
+					"name" : "livox_lidar_sdk_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "logger::@40bdc9f1bcfd98366e9b",
+					"jsonFile" : "target-logger-b8d5dbc02eae4b83188c.json",
+					"name" : "logger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multi_lidars_upgrade::@246cff86076f24b28dee",
+					"jsonFile" : "target-multi_lidars_upgrade-839c867cfac415d761e7.json",
+					"name" : "multi_lidars_upgrade",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zh/slam/fastlio_ros2humble/build/livox_sdk2",
+		"source" : "/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

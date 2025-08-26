@@ -1,0 +1,513 @@
+[0.000000] (-) TimerEvent: {}
+[0.000415] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.000477] (livox_sdk2) JobQueued: {'identifier': 'livox_sdk2', 'dependencies': OrderedDict()}
+[0.000490] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/zh/slam/fastlio_ros2humble/install/livox_ros_driver2')])}
+[0.000503] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.003286] (livox_sdk2) JobStarted: {'identifier': 'livox_sdk2'}
+[0.005409] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[0.005630] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '/home/zh/slam/fastlio_ros2humble/src/livox_ros_driver2', '-DCMAKE_INSTALL_PREFIX=/home/zh/slam/fastlio_ros2humble/install/livox_ros_driver2'], 'cwd': '/home/zh/slam/fastlio_ros2humble/build/livox_ros_driver2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('no_proxy', 'localhost,127.0.0.1'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'zh'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_inter/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zh'), ('CONDA_SHLVL', '1'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enx6c1ff7168035" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('OLDPWD', '/home/zh/slam/fastlio_ros2humble/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4596'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4fe9475c19dd19b7f147ead268873907'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install:/home/zh/unitree/go2/unitree_ros2/example/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zh'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zh'), ('socks_proxy', 'socks://127.0.0.1:7890'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/home/zh/unitree/go2/unitree_ros2/example/install/unitree_ros2_example/bin:/opt/ros/humble/bin:/usr/local/cuda-12.8/bin:/home/zh/anaconda3/bin:/home/zh/anaconda3/condabin:/home/zh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zh:@/tmp/.ICE-unix/4596,unix/zh:/tmp/.ICE-unix/4596'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7f43c30e_feaf_485e_bb5b_1d87ac0efa01'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.152'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_driver_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/helloworld_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_twist_bridge_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_teleop_ctrl_keyboard:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_inter:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_description:/home/zh/unitree/go2/unitree_ros2/example/install/unitree_ros2_example:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zh/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zh/slam/fastlio_ros2humble/build/livox_ros_driver2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zh/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4fe9475c19dd19b7f147ead268873907'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib/python3.9/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_py/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_driver_py/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.9/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/helloworld_py/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_twist_bridge_py/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_teleop_ctrl_keyboard/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_api/lib/python3.9/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_inter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/zh/anaconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_inter:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_description:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds:/home/zh/unitree/go2/unitree_ros2/example/install/unitree_ros2_example:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_driver_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/helloworld_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_twist_bridge_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_teleop_ctrl_keyboard:/opt/ros/humble')]), 'shell': False}
+[0.007151] (livox_sdk2) JobProgress: {'identifier': 'livox_sdk2', 'progress': 'cmake'}
+[0.007285] (livox_sdk2) Command: {'cmd': ['/usr/bin/cmake', '/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2', '-DCMAKE_INSTALL_PREFIX=/home/zh/slam/fastlio_ros2humble/install/livox_sdk2'], 'cwd': '/home/zh/slam/fastlio_ros2humble/build/livox_sdk2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('no_proxy', 'localhost,127.0.0.1'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'zh'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_inter/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zh'), ('CONDA_SHLVL', '1'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enx6c1ff7168035" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('OLDPWD', '/home/zh/slam/fastlio_ros2humble/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4596'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4fe9475c19dd19b7f147ead268873907'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install:/home/zh/unitree/go2/unitree_ros2/example/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zh'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zh'), ('socks_proxy', 'socks://127.0.0.1:7890'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/home/zh/unitree/go2/unitree_ros2/example/install/unitree_ros2_example/bin:/opt/ros/humble/bin:/usr/local/cuda-12.8/bin:/home/zh/anaconda3/bin:/home/zh/anaconda3/condabin:/home/zh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zh:@/tmp/.ICE-unix/4596,unix/zh:/tmp/.ICE-unix/4596'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7f43c30e_feaf_485e_bb5b_1d87ac0efa01'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.152'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_driver_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/helloworld_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_twist_bridge_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_teleop_ctrl_keyboard:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_inter:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_description:/home/zh/unitree/go2/unitree_ros2/example/install/unitree_ros2_example:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zh/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zh/slam/fastlio_ros2humble/build/livox_sdk2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zh/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4fe9475c19dd19b7f147ead268873907'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib/python3.9/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_py/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_driver_py/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.9/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/helloworld_py/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_twist_bridge_py/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_teleop_ctrl_keyboard/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_api/lib/python3.9/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_inter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/zh/anaconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_inter:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_description:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds:/home/zh/unitree/go2/unitree_ros2/example/install/unitree_ros2_example')]), 'shell': False}
+[0.032365] (livox_ros_driver2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.033016] (livox_sdk2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.056275] (livox_ros_driver2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.058492] (livox_sdk2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.059092] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.062438] (livox_sdk2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.089198] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.091988] (livox_sdk2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.092035] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.092100] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.092270] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.093647] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.095383] (livox_sdk2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.095500] (livox_sdk2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.095686] (livox_sdk2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.097138] (livox_sdk2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.099727] (-) TimerEvent: {}
+[0.126750] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.130356] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.130495] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.130704] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.131074] (livox_ros_driver2) StdoutLine: {'line': b'-- livox_ros_driver2 version: 1.2.4\n'}
+[0.132033] (livox_sdk2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.132086] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.135431] (livox_sdk2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.135577] (livox_sdk2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.135842] (livox_sdk2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.136188] (livox_sdk2) StdoutLine: {'line': b'-- main project dir: /home/zh/slam/fastlio_ros2humble/src/Livox-SDK2\n'}
+[0.136836] (livox_sdk2) StdoutLine: {'line': b'-- main project dir: /home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/samples\n'}
+[0.137636] (livox_sdk2) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.145143] (livox_sdk2) StdoutLine: {'line': b'-- Generating done\n'}
+[0.146958] (livox_sdk2) StdoutLine: {'line': b'-- Build files have been written to: /home/zh/slam/fastlio_ros2humble/build/livox_sdk2\n'}
+[0.149092] (livox_sdk2) CommandEnded: {'returncode': 0}
+[0.149416] (livox_sdk2) JobProgress: {'identifier': 'livox_sdk2', 'progress': 'build'}
+[0.149835] (livox_sdk2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zh/slam/fastlio_ros2humble/build/livox_sdk2', '--', '-j32', '-l32'], 'cwd': '/home/zh/slam/fastlio_ros2humble/build/livox_sdk2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('no_proxy', 'localhost,127.0.0.1'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'zh'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_inter/lib:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zh'), ('CONDA_SHLVL', '1'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enx6c1ff7168035" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('OLDPWD', '/home/zh/slam/fastlio_ros2humble/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4596'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4fe9475c19dd19b7f147ead268873907'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install:/home/zh/unitree/go2/unitree_ros2/example/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zh'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zh'), ('socks_proxy', 'socks://127.0.0.1:7890'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/home/zh/unitree/go2/unitree_ros2/example/install/unitree_ros2_example/bin:/opt/ros/humble/bin:/usr/local/cuda-12.8/bin:/home/zh/anaconda3/bin:/home/zh/anaconda3/condabin:/home/zh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zh:@/tmp/.ICE-unix/4596,unix/zh:/tmp/.ICE-unix/4596'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7f43c30e_feaf_485e_bb5b_1d87ac0efa01'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.152'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_driver_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/helloworld_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_twist_bridge_py:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_teleop_ctrl_keyboard:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_inter:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_description:/home/zh/unitree/go2/unitree_ros2/example/install/unitree_ros2_example:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zh/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zh/slam/fastlio_ros2humble/build/livox_sdk2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zh/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4fe9475c19dd19b7f147ead268873907'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib/python3.9/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_py/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_driver_py/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_go/lib/python3.9/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/helloworld_py/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_twist_bridge_py/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_teleop_ctrl_keyboard/lib/python3.10/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_api/lib/python3.9/site-packages:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_inter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/zh/anaconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_tutorial_inter:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/go2_description:/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/cyclonedds:/home/zh/unitree/go2/unitree_ros2/example/install/unitree_ros2_example')]), 'shell': False}
+[0.173904] (livox_sdk2) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/params_check.cpp.o\x1b[0m\n'}
+[0.174163] (livox_sdk2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/io_loop.cpp.o\x1b[0m\n'}
+[0.174212] (livox_sdk2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/params_check.cpp.o\x1b[0m\n'}
+[0.174242] (livox_sdk2) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/device_manager.cpp.o\x1b[0m\n'}
+[0.174273] (livox_sdk2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/livox_lidar_sdk.cpp.o\x1b[0m\n'}
+[0.174301] (livox_sdk2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade_manager.cpp.o\x1b[0m\n'}
+[0.174329] (livox_sdk2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/io_loop.cpp.o\x1b[0m\n'}
+[0.174355] (livox_sdk2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/parse_cfg_file.cpp.o\x1b[0m\n'}
+[0.174952] (livox_sdk2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/device_manager.cpp.o\x1b[0m\n'}
+[0.174998] (livox_sdk2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade_manager.cpp.o\x1b[0m\n'}
+[0.175027] (livox_sdk2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/__/3rdparty/FastCRC/FastCRCsw.cpp.o\x1b[0m\n'}
+[0.175054] (livox_sdk2) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/livox_lidar_sdk.cpp.o\x1b[0m\n'}
+[0.175083] (livox_sdk2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/io_thread.cpp.o\x1b[0m\n'}
+[0.175107] (livox_sdk2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_epoll.cpp.o\x1b[0m\n'}
+[0.175132] (livox_sdk2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_base.cpp.o\x1b[0m\n'}
+[0.175157] (livox_sdk2) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/io_thread.cpp.o\x1b[0m\n'}
+[0.175180] (livox_sdk2) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/parse_cfg_file.cpp.o\x1b[0m\n'}
+[0.175389] (livox_sdk2) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_poll.cpp.o\x1b[0m\n'}
+[0.175489] (livox_sdk2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/network/unix/network_util.cpp.o\x1b[0m\n'}
+[0.175515] (livox_sdk2) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/logging.cpp.o\x1b[0m\n'}
+[0.175558] (livox_sdk2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/network/unix/network_util.cpp.o\x1b[0m\n'}
+[0.175625] (livox_sdk2) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/thread_base.cpp.o\x1b[0m\n'}
+[0.175664] (livox_sdk2) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_base.cpp.o\x1b[0m\n'}
+[0.175687] (livox_sdk2) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/thread_base.cpp.o\x1b[0m\n'}
+[0.175709] (livox_sdk2) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/__/3rdparty/FastCRC/FastCRCsw.cpp.o\x1b[0m\n'}
+[0.175730] (livox_sdk2) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/logging.cpp.o\x1b[0m\n'}
+[0.175749] (livox_sdk2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_select.cpp.o\x1b[0m\n'}
+[0.175770] (livox_sdk2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_kqueue.cpp.o\x1b[0m\n'}
+[0.175792] (livox_sdk2) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_kqueue.cpp.o\x1b[0m\n'}
+[0.175821] (livox_sdk2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_select.cpp.o\x1b[0m\n'}
+[0.175904] (livox_sdk2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_epoll.cpp.o\x1b[0m\n'}
+[0.175932] (livox_sdk2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_poll.cpp.o\x1b[0m\n'}
+[0.201550] (-) TimerEvent: {}
+[0.255222] (livox_sdk2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/wake_up/unix/wake_up_pipe.cpp.o\x1b[0m\n'}
+[0.259772] (livox_sdk2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/wake_up/unix/wake_up_pipe.cpp.o\x1b[0m\n'}
+[0.290108] (livox_sdk2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/comm_port.cpp.o\x1b[0m\n'}
+[0.293562] (livox_sdk2) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/comm_port.cpp.o\x1b[0m\n'}
+[0.301529] (livox_sdk2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/sdk_protocol.cpp.o\x1b[0m\n'}
+[0.301818] (-) TimerEvent: {}
+[0.302249] (livox_sdk2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/sdk_protocol.cpp.o\x1b[0m\n'}
+[0.319387] (livox_sdk2) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade/firmware.cpp.o\x1b[0m\n'}
+[0.319697] (livox_sdk2) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade/firmware.cpp.o\x1b[0m\n'}
+[0.320728] (livox_sdk2) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/generate_seq.cpp.o\x1b[0m\n'}
+[0.321227] (livox_sdk2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/generate_seq.cpp.o\x1b[0m\n'}
+[0.342846] (livox_sdk2) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade/livox_lidar_upgrader.cpp.o\x1b[0m\n'}
+[0.350571] (livox_sdk2) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/logger_manager.cpp.o\x1b[0m\n'}
+[0.351218] (livox_sdk2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade/livox_lidar_upgrader.cpp.o\x1b[0m\n'}
+[0.370424] (livox_sdk2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/logger_handler.cpp.o\x1b[0m\n'}
+[0.391474] (livox_sdk2) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/logger_manager.cpp.o\x1b[0m\n'}
+[0.404474] (-) TimerEvent: {}
+[0.432043] (livox_sdk2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/file_manager.cpp.o\x1b[0m\n'}
+[0.432494] (livox_sdk2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/file_manager.cpp.o\x1b[0m\n'}
+[0.434311] (livox_sdk2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/logger_handler.cpp.o\x1b[0m\n'}
+[0.449972] (livox_sdk2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/data_handler/data_handler.cpp.o\x1b[0m\n'}
+[0.457874] (livox_sdk2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/command_impl.cpp.o\x1b[0m\n'}
+[0.468795] (livox_sdk2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/data_handler/data_handler.cpp.o\x1b[0m\n'}
+[0.478074] (livox_sdk2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/command_impl.cpp.o\x1b[0m\n'}
+[0.488245] (livox_sdk2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/general_command_handler.cpp.o\x1b[0m\n'}
+[0.494485] (livox_sdk2) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/general_command_handler.cpp.o\x1b[0m\n'}
+[0.504586] (-) TimerEvent: {}
+[0.510146] (livox_sdk2) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/hap_command_handler.cpp.o\x1b[0m\n'}
+[0.512927] (livox_sdk2) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/hap_command_handler.cpp.o\x1b[0m\n'}
+[0.521633] (livox_sdk2) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/mid360_command_handler.cpp.o\x1b[0m\n'}
+[0.604702] (-) TimerEvent: {}
+[0.609786] (livox_sdk2) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/mid360_command_handler.cpp.o\x1b[0m\n'}
+[0.619110] (livox_sdk2) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/build_request.cpp.o\x1b[0m\n'}
+[0.620287] (livox_sdk2) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/build_request.cpp.o\x1b[0m\n'}
+[0.705811] (-) TimerEvent: {}
+[0.806157] (-) TimerEvent: {}
+[0.907989] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Python3: /home/zh/anaconda3/bin/python3 (found version "3.10.9") found components: Interpreter \n'}
+[0.908215] (-) TimerEvent: {}
+[0.934448] (livox_sdk2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/parse_lidar_state_info.cpp.o\x1b[0m\n'}
+[1.008348] (-) TimerEvent: {}
+[1.082271] (livox_sdk2) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/parse_lidar_state_info.cpp.o\x1b[0m\n'}
+[1.087979] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.094343] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.108466] (-) TimerEvent: {}
+[1.130416] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202340] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.203752] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/home/zh/unitree/go2/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.208561] (-) TimerEvent: {}
+[1.218840] (livox_ros_driver2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.226363] (livox_ros_driver2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.265606] (livox_sdk2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19\x1b[m\x1b[K,\n'}
+[1.266269] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22\x1b[m\x1b[K,\n'}
+[1.266340] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22\x1b[m\x1b[K,\n'}
+[1.266377] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26\x1b[m\x1b[K,\n'}
+[1.269598] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38\x1b[m\x1b[K,\n'}
+[1.269677] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2\x1b[m\x1b[K:\n'}
+[1.269709] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown option after \xe2\x80\x98\x1b[01m\x1b[K#pragma GCC diagnostic\x1b[m\x1b[K\xe2\x80\x99 kind [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas\x07-Wpragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.269744] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;35m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[1.269787] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.269815] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.269843] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[1.269867] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.269893] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.269922] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[1.269950] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.269979] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.270007] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[1.270038] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.270063] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdid you mean \xe2\x80\x98\x1b[01m\x1b[K-Warray-bounds\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.270094] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;36m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[1.270126] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.270150] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.270177] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[1.270202] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.270227] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.270255] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[1.270279] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.270305] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.270330] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[1.270364] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.312472] (-) TimerEvent: {}
+[1.344106] (livox_sdk2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19\x1b[m\x1b[K,\n'}
+[1.344329] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22\x1b[m\x1b[K,\n'}
+[1.344374] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22\x1b[m\x1b[K,\n'}
+[1.344433] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26\x1b[m\x1b[K,\n'}
+[1.344471] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38\x1b[m\x1b[K,\n'}
+[1.344502] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37\x1b[m\x1b[K:\n'}
+[1.344529] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown option after \xe2\x80\x98\x1b[01m\x1b[K#pragma GCC diagnostic\x1b[m\x1b[K\xe2\x80\x99 kind [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas\x07-Wpragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.344562] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;35m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[1.344590] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.344621] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.344652] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[1.344679] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.344708] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.344736] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[1.344761] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.344785] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.344810] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[1.344837] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.347552] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdid you mean \xe2\x80\x98\x1b[01m\x1b[K-Warray-bounds\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.347712] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;36m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[1.347752] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.347786] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.347815] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[1.347845] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.347869] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.347897] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[1.347924] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.347950] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.347977] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[1.348006] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.366957] (livox_sdk2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19\x1b[m\x1b[K,\n'}
+[1.367183] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22\x1b[m\x1b[K,\n'}
+[1.367241] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22\x1b[m\x1b[K,\n'}
+[1.367275] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26\x1b[m\x1b[K,\n'}
+[1.367306] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38\x1b[m\x1b[K,\n'}
+[1.367338] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37\x1b[m\x1b[K:\n'}
+[1.367377] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown option after \xe2\x80\x98\x1b[01m\x1b[K#pragma GCC diagnostic\x1b[m\x1b[K\xe2\x80\x99 kind [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas\x07-Wpragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.367442] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;35m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[1.367473] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.367499] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.367530] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[1.367556] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.367583] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.367612] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[1.367639] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.367664] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.367691] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[1.367720] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.370327] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdid you mean \xe2\x80\x98\x1b[01m\x1b[K-Warray-bounds\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.370451] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;36m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[1.370486] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.370514] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.370551] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[1.370584] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.370614] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.370643] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[1.370672] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.370696] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.370722] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[1.370749] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.394542] (livox_ros_driver2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.394756] (livox_ros_driver2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.412589] (-) TimerEvent: {}
+[1.486494] (livox_sdk2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19\x1b[m\x1b[K,\n'}
+[1.486793] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22\x1b[m\x1b[K,\n'}
+[1.486846] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22\x1b[m\x1b[K,\n'}
+[1.486882] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26\x1b[m\x1b[K,\n'}
+[1.486913] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38\x1b[m\x1b[K,\n'}
+[1.486940] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2\x1b[m\x1b[K:\n'}
+[1.486970] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown option after \xe2\x80\x98\x1b[01m\x1b[K#pragma GCC diagnostic\x1b[m\x1b[K\xe2\x80\x99 kind [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas\x07-Wpragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.487003] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;35m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[1.487052] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.487080] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.487108] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[1.487133] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.487158] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.487187] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[1.487212] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.487240] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.487268] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[1.487293] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.487318] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdid you mean \xe2\x80\x98\x1b[01m\x1b[K-Warray-bounds\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.487347] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;36m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[1.487379] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.487424] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.487457] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[1.487483] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.487508] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.487533] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[1.487557] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.487581] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.487605] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[1.487630] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.515481] (-) TimerEvent: {}
+[1.545428] (livox_ros_driver2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.546164] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.611821] (livox_sdk2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19\x1b[m\x1b[K,\n'}
+[1.612089] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22\x1b[m\x1b[K,\n'}
+[1.612245] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22\x1b[m\x1b[K,\n'}
+[1.612292] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26\x1b[m\x1b[K,\n'}
+[1.612323] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38\x1b[m\x1b[K,\n'}
+[1.613467] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37\x1b[m\x1b[K:\n'}
+[1.613541] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown option after \xe2\x80\x98\x1b[01m\x1b[K#pragma GCC diagnostic\x1b[m\x1b[K\xe2\x80\x99 kind [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas\x07-Wpragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.613578] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;35m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[1.613606] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.613638] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.613665] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[1.613693] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.613720] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.613747] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[1.613770] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.613796] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.613824] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[1.613849] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.615528] (-) TimerEvent: {}
+[1.616602] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdid you mean \xe2\x80\x98\x1b[01m\x1b[K-Warray-bounds\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.616693] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;36m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[1.616759] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.616820] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.616872] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[1.616943] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.618452] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.618519] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[1.618552] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.618580] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.618608] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[1.618638] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.715649] (-) TimerEvent: {}
+[1.728109] (livox_sdk2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19\x1b[m\x1b[K,\n'}
+[1.728299] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22\x1b[m\x1b[K,\n'}
+[1.728337] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22\x1b[m\x1b[K,\n'}
+[1.728367] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26\x1b[m\x1b[K,\n'}
+[1.728393] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38\x1b[m\x1b[K,\n'}
+[1.728426] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37\x1b[m\x1b[K:\n'}
+[1.728454] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown option after \xe2\x80\x98\x1b[01m\x1b[K#pragma GCC diagnostic\x1b[m\x1b[K\xe2\x80\x99 kind [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas\x07-Wpragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.728486] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;35m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[1.728512] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.728536] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.728561] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[1.728585] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.728610] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.728638] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[1.728665] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.728690] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.728714] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[1.728740] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.731521] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdid you mean \xe2\x80\x98\x1b[01m\x1b[K-Warray-bounds\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.731676] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;36m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[1.731715] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.731743] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.731772] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[1.731799] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.731823] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.731886] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[1.731912] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.731936] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zh/slam/fastlio_ros2humble/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.731961] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[1.731986] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.732009] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.759836] (livox_ros_driver2) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.815756] (-) TimerEvent: {}
+[1.823876] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.824063] (livox_ros_driver2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.893183] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.915873] (-) TimerEvent: {}
+[1.918853] (livox_ros_driver2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[2.013483] (livox_ros_driver2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[2.015946] (-) TimerEvent: {}
+[2.017618] (livox_ros_driver2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.051819] (livox_sdk2) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/debug_point_cloud_handler/debug_point_cloud_manager.cpp.o\x1b[0m\n'}
+[2.118498] (livox_sdk2) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/debug_point_cloud_handler/debug_point_cloud_handler.cpp.o\x1b[0m\n'}
+[2.118752] (-) TimerEvent: {}
+[2.127120] (livox_sdk2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/debug_point_cloud_handler/debug_point_cloud_manager.cpp.o\x1b[0m\n'}
+[2.143045] (livox_sdk2) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/debug_point_cloud_handler/debug_point_cloud_handler.cpp.o\x1b[0m\n'}
+[2.218918] (-) TimerEvent: {}
+[2.319347] (-) TimerEvent: {}
+[2.419772] (-) TimerEvent: {}
+[2.520139] (-) TimerEvent: {}
+[2.620474] (-) TimerEvent: {}
+[2.720822] (-) TimerEvent: {}
+[2.821130] (-) TimerEvent: {}
+[2.921465] (-) TimerEvent: {}
+[3.021787] (-) TimerEvent: {}
+[3.059040] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[3.065687] (livox_ros_driver2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[3.080381] (livox_ros_driver2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[3.080995] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.105193] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.121857] (-) TimerEvent: {}
+[3.185203] (livox_ros_driver2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.188390] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.191735] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.221916] (-) TimerEvent: {}
+[3.264861] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.321980] (-) TimerEvent: {}
+[3.338046] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.408228] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.408641] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.408971] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.409299] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.409646] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.409974] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.410097] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.410212] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.410539] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.410901] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.411253] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.411590] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.411951] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.412319] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.412680] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.413038] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.413402] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.413755] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.414155] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.414481] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.414755] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[3.414866] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[3.414983] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[3.415309] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.415669] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.422033] (-) TimerEvent: {}
+[3.439508] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[3.440075] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'apr-1'\n"}
+[3.441446] (livox_ros_driver2) StdoutLine: {'line': b"--   No package 'apr-1' found\n"}
+[3.522131] (-) TimerEvent: {}
+[3.564553] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.622213] (-) TimerEvent: {}
+[3.695771] (livox_sdk2) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_lidar_sdk_shared.so\x1b[0m\n'}
+[3.698493] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.722310] (-) TimerEvent: {}
+[3.736851] (livox_sdk2) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX static library liblivox_lidar_sdk_static.a\x1b[0m\n'}
+[3.822374] (-) TimerEvent: {}
+[3.842385] (livox_sdk2) StdoutLine: {'line': b'[ 84%] Built target livox_lidar_sdk_static\n'}
+[3.851561] (livox_sdk2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object samples/multi_lidars_upgrade/CMakeFiles/multi_lidars_upgrade.dir/main.cpp.o\x1b[0m\n'}
+[3.851691] (livox_sdk2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/main.cpp.o\x1b[0m\n'}
+[3.851717] (livox_sdk2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object samples/livox_lidar_quick_start/CMakeFiles/livox_lidar_quick_start.dir/main.cpp.o\x1b[0m\n'}
+[3.851736] (livox_sdk2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object samples/livox_lidar_rmc_time_sync/CMakeFiles/livox_lidar_rmc_time_sync.dir/main.cpp.o\x1b[0m\n'}
+[3.851754] (livox_sdk2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object samples/livox_lidar_rmc_time_sync/CMakeFiles/livox_lidar_rmc_time_sync.dir/linux/synchro.cpp.o\x1b[0m\n'}
+[3.852378] (livox_sdk2) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object samples/logger/CMakeFiles/logger.dir/main.cpp.o\x1b[0m\n'}
+[3.852667] (livox_sdk2) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object samples/lidar_cmd_observer/CMakeFiles/lidar_cmd_observer.dir/main.cpp.o\x1b[0m\n'}
+[3.874324] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.894795] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonInterp: /home/zh/anaconda3/bin/python3 (found suitable version "3.10.9", minimum required is "3.6") \n'}
+[3.896405] (livox_ros_driver2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.915032] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonLibs: /home/zh/anaconda3/lib/libpython3.10.so (found suitable version "3.10.9", minimum required is "3.5") \n'}
+[3.915153] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/zh/anaconda3/bin/python3\n'}
+[3.915187] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/zh/anaconda3/include/python3.10\n'}
+[3.915215] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/zh/anaconda3/lib/libpython3.10.so\n'}
+[3.922436] (-) TimerEvent: {}
+[3.933004] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.947111] (livox_sdk2) StdoutLine: {'line': b'[ 92%] Built target livox_lidar_sdk_shared\n'}
+[3.970631] (livox_sdk2) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable livox_lidar_quick_start\x1b[0m\n'}
+[3.970836] (livox_sdk2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable lidar_cmd_observer\x1b[0m\n'}
+[4.010611] (livox_sdk2) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable logger\x1b[0m\n'}
+[4.010804] (livox_sdk2) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable debug_point_cloud\x1b[0m\n'}
+[4.022818] (-) TimerEvent: {}
+[4.025473] (livox_sdk2) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable multi_lidars_upgrade\x1b[0m\n'}
+[4.052198] (livox_ros_driver2) StdoutLine: {'line': b'-- Using numpy include directory: /home/zh/.local/lib/python3.10/site-packages/numpy/core/include\n'}
+[4.119520] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.122180] (livox_sdk2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable livox_lidar_rmc_time_sync\x1b[0m\n'}
+[4.122884] (-) TimerEvent: {}
+[4.141691] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.143934] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.144310] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/zh/slam/fastlio_ros2humble/src/livox_ros_driver2/3rdparty;/home/zh/slam/fastlio_ros2humble/src/livox_ros_driver2/src\n'}
+[4.144349] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.146610] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.146681] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.147462] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.148260] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.148832] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.150695] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.150765] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.151319] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.152799] (livox_ros_driver2) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.155564] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0mCMake Error: The following variables are used in this project, but they are set to NOTFOUND.\n'}
+[4.155653] (livox_ros_driver2) StderrLine: {'line': b'Please set them or make sure they are set and tested correctly in the CMake files:\n'}
+[4.155692] (livox_ros_driver2) StderrLine: {'line': b'/home/zh/slam/fastlio_ros2humble/src/livox_ros_driver2/LIVOX_INTERFACES_INCLUDE_DIRECTORIES\n'}
+[4.155729] (livox_ros_driver2) StderrLine: {'line': b'   used as include directory in directory /home/zh/slam/fastlio_ros2humble/src/livox_ros_driver2\n'}
+[4.155759] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0m\n'}
+[4.168763] (livox_ros_driver2) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):\n'}
+[4.168847] (livox_ros_driver2) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[4.168888] (livox_ros_driver2) StderrLine: {'line': b'  livox_interfaces2__rosidl_generator_py because files in some directories\n'}
+[4.168921] (livox_ros_driver2) StderrLine: {'line': b'  may conflict with libraries in implicit directories:\n'}
+[4.168951] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[4.168981] (livox_ros_driver2) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[4.169010] (livox_ros_driver2) StderrLine: {'line': b'      /home/zh/anaconda3/lib\n'}
+[4.169039] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[4.169072] (livox_ros_driver2) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[4.169100] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.169129] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[4.169159] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[4.169188] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:241 (rosidl_generate_interfaces)\n'}
+[4.169217] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[4.169245] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0m\n'}
+[4.169872] (livox_ros_driver2) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[4.169943] (livox_ros_driver2) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[4.169980] (livox_ros_driver2) StderrLine: {'line': b'  livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext because files in\n'}
+[4.170013] (livox_ros_driver2) StderrLine: {'line': b'  some directories may conflict with libraries in implicit directories:\n'}
+[4.170044] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[4.170073] (livox_ros_driver2) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[4.170103] (livox_ros_driver2) StderrLine: {'line': b'      /home/zh/anaconda3/lib\n'}
+[4.170132] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[4.170160] (livox_ros_driver2) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[4.170189] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.170217] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[4.170251] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[4.170280] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:241 (rosidl_generate_interfaces)\n'}
+[4.170308] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[4.170337] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0m\n'}
+[4.170865] (livox_ros_driver2) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[4.170934] (livox_ros_driver2) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[4.170971] (livox_ros_driver2) StderrLine: {'line': b'  livox_ros_driver2__rosidl_typesupport_introspection_c__pyext because files\n'}
+[4.171002] (livox_ros_driver2) StderrLine: {'line': b'  in some directories may conflict with libraries in implicit directories:\n'}
+[4.171032] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[4.171064] (livox_ros_driver2) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[4.171098] (livox_ros_driver2) StderrLine: {'line': b'      /home/zh/anaconda3/lib\n'}
+[4.171128] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[4.171157] (livox_ros_driver2) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[4.171186] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.171215] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[4.171244] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[4.171272] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:241 (rosidl_generate_interfaces)\n'}
+[4.171300] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[4.171328] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0m\n'}
+[4.171739] (livox_ros_driver2) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[4.171816] (livox_ros_driver2) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[4.171855] (livox_ros_driver2) StderrLine: {'line': b'  livox_ros_driver2__rosidl_typesupport_c__pyext because files in some\n'}
+[4.171887] (livox_ros_driver2) StderrLine: {'line': b'  directories may conflict with libraries in implicit directories:\n'}
+[4.171917] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[4.171946] (livox_ros_driver2) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[4.171975] (livox_ros_driver2) StderrLine: {'line': b'      /home/zh/anaconda3/lib\n'}
+[4.172003] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[4.172031] (livox_ros_driver2) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[4.172059] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.172086] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[4.172115] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[4.172143] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:241 (rosidl_generate_interfaces)\n'}
+[4.172170] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[4.172198] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0m\n'}
+[4.206618] (livox_ros_driver2) StdoutLine: {'line': b'-- Generating done\n'}
+[4.207955] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[4.222991] (-) TimerEvent: {}
+[4.231422] (livox_ros_driver2) CommandEnded: {'returncode': 1}
+[4.244259] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 1}
+[4.283463] (livox_sdk2) StdoutLine: {'line': b'[100%] Built target lidar_cmd_observer\n'}
+[4.298809] (livox_sdk2) StdoutLine: {'line': b'[100%] Built target livox_lidar_quick_start\n'}
+[4.322909] (livox_sdk2) StdoutLine: {'line': b'[100%] Built target debug_point_cloud\n'}
+[4.323071] (-) TimerEvent: {}
+[4.329297] (livox_sdk2) StdoutLine: {'line': b'[100%] Built target logger\n'}
+[4.329399] (livox_sdk2) StdoutLine: {'line': b'[100%] Built target multi_lidars_upgrade\n'}
+[4.404494] (livox_sdk2) StdoutLine: {'line': b'[100%] Built target livox_lidar_rmc_time_sync\n'}
+[4.411873] (livox_sdk2) JobEnded: {'identifier': 'livox_sdk2', 'rc': 'SIGINT'}
+[4.422207] (fast_lio) JobSkipped: {'identifier': 'fast_lio'}
+[4.422253] (-) EventReactorShutdown: {}

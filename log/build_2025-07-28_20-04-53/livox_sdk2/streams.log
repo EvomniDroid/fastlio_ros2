@@ -1,0 +1,26 @@
+[0.006s] Invoking command in '/home/zh/slam/fastlio_ros2humble/build/livox_sdk2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zh/slam/fastlio_ros2humble/build/livox_sdk2 -- -j32 -l32
+[0.024s] [35m[1mConsolidate compiler generated dependencies of target livox_lidar_sdk_static[0m
+[0.024s] [35m[1mConsolidate compiler generated dependencies of target livox_lidar_sdk_shared[0m
+[0.037s] [ 42%] Built target livox_lidar_sdk_static
+[0.038s] [ 84%] Built target livox_lidar_sdk_shared
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target livox_lidar_quick_start[0m
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target multi_lidars_upgrade[0m
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target lidar_cmd_observer[0m
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target logger[0m
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target debug_point_cloud[0m
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target livox_lidar_rmc_time_sync[0m
+[0.048s] [ 87%] Built target livox_lidar_quick_start
+[0.048s] [ 89%] Built target multi_lidars_upgrade
+[0.048s] [ 95%] Built target debug_point_cloud
+[0.048s] [ 95%] Built target lidar_cmd_observer
+[0.048s] [ 96%] Built target logger
+[0.048s] [100%] Built target livox_lidar_rmc_time_sync
+[0.053s] Invoked command in '/home/zh/slam/fastlio_ros2humble/build/livox_sdk2' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zh/slam/fastlio_ros2humble/build/livox_sdk2 -- -j32 -l32
+[0.058s] Invoking command in '/home/zh/slam/fastlio_ros2humble/build/livox_sdk2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zh/slam/fastlio_ros2humble/build/livox_sdk2
+[0.062s] -- Install configuration: ""
+[0.062s] -- Installing: /home/zh/slam/fastlio_ros2humble/install/livox_sdk2/lib/liblivox_lidar_sdk_static.a
+[0.071s] -- Installing: /home/zh/slam/fastlio_ros2humble/install/livox_sdk2/include/livox_lidar_def.h
+[0.071s] -- Installing: /home/zh/slam/fastlio_ros2humble/install/livox_sdk2/include/livox_lidar_api.h
+[0.071s] -- Installing: /home/zh/slam/fastlio_ros2humble/install/livox_sdk2/include/livox_lidar_cfg.h
+[0.071s] -- Installing: /home/zh/slam/fastlio_ros2humble/install/livox_sdk2/lib/liblivox_lidar_sdk_shared.so
+[0.074s] Invoked command in '/home/zh/slam/fastlio_ros2humble/build/livox_sdk2' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zh/slam/fastlio_ros2humble/build/livox_sdk2
