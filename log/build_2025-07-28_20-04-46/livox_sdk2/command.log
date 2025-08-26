@@ -1,3 +1,0 @@
-Invoking command in '/home/zh/slam/fastlio_ros2humble/build/livox_sdk2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/zh/slam/fastlio_ros2humble/src/Livox-SDK2 -DCMAKE_INSTALL_PREFIX=/home/zh/slam/fastlio_ros2humble/install/livox_sdk2
-Invoked command in '/home/zh/slam/fastlio_ros2humble/build/livox_sdk2' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/zh/slam/fastlio_ros2humble/src/Livox-SDK2 -DCMAKE_INSTALL_PREFIX=/home/zh/slam/fastlio_ros2humble/install/livox_sdk2
-Invoking command in '/home/zh/slam/fastlio_ros2humble/build/livox_sdk2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zh/slam/fastlio_ros2humble/build/livox_sdk2 -- -j32 -l32

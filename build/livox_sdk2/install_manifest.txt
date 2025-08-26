@@ -1,5 +1,0 @@
-/home/zh/slam/fastlio_ros2humble/install/livox_sdk2/lib/liblivox_lidar_sdk_static.a
-/home/zh/slam/fastlio_ros2humble/install/livox_sdk2/include/livox_lidar_def.h
-/home/zh/slam/fastlio_ros2humble/install/livox_sdk2/include/livox_lidar_api.h
-/home/zh/slam/fastlio_ros2humble/install/livox_sdk2/include/livox_lidar_cfg.h
-/home/zh/slam/fastlio_ros2humble/install/livox_sdk2/lib/liblivox_lidar_sdk_shared.so
